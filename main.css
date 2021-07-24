@@ -1,0 +1,98 @@
+body {
+    background-image: url(https://i.pinimg.com/originals/6d/35/ea/6d35ea77a917bc57c35bee326081adb5.png) ;
+    background-size: 100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-content:center;
+    align-items:center;
+}
+
+#table-validator {
+    display:flex;
+    position:absolute;
+    width:1440px;
+    height:688px;
+    left:10px;
+    top:0;
+    flex-direction:row;
+    justify-content:center;
+    align-content:center;
+    align-items:center;
+}
+
+#left-column {
+    background-image: url(https://d.radikal.ru/d22/2107/b2/7cb43ba7ac86.jpg);
+    width: 600px;
+    height: 500px;
+    border: 6px solid white;
+    border-radius: 55px;
+}
+
+#right-column {
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    border: 6px solid white;
+    border-radius: 55px;
+}
+
+#dev-icon {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2, input {
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    color: darkslategrey;
+    font-size: 14pt;
+    font-weight: normal;
+}
+
+#group-of-buttons {
+    text-align: center;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    font-size: 15pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#btn-sign-up {
+    background-color: yellow;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+
+#btn-create {
+    background-color: green;
+    color: white;
+}
+
+#input-name, #input-surname, #input-email, #input-nickname, #input-number, #input-password {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+#btn-send-form, #btn-sign-up-form {
+    background-color: yellow;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
